@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout  
+            android:layout_width="match_parent" 
+		        android:layout_height="match_parent"        
+            android:orientation="vertical"            
+		>
+
+    <RelativeLayout 
+        android:layout_width="match_parent" 
+        android:layout_height="match_parent"       
+        >
+
+        <TextView
+            android:id="@+id/emp_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" 
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textAllCaps="true"
+            android:layout_centerHorizontal="true"/>
+			
+		<TextView
+          android:id="@+id/emp_id"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" 
+    		  android:textColor="#000000" 
+    		  android:textStyle="bold"
+    		  android:textSize="15dp"
+    	    android:layout_marginLeft="15dp"          		
+          android:textAllCaps="true"
+          android:layout_centerHorizontal="true"
+          android:layout_below="@+id/emp_name"/>
+
+  </RelativeLayout>
+
+  <RelativeLayout android:layout_width="match_parent" 
+        android:layout_height="wrap_content"   
+      >
+
+       <Button
+          android:id="@+id/view_btn"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="#000000"
+          android:text="View" 
+          android:layout_centerHorizontal="true"
+        />
+
+         <View
+          android:layout_width="180dp"
+          android:layout_height="2dp"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:background="#000000"
+          android:padding="2dp"
+          android:paddingBottom="10dp"
+          android:paddingTop="10dp" 
+          android:layout_centerHorizontal="true"
+          android:layout_below="@+id/view_btn"/>      
+
+
+      </RelativeLayout>
+
+
+</LinearLayout>
+		
+</ScrollView>			

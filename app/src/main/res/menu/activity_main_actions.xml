@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+   <item
+        android:id="@+id/action_refresh"        
+        android:icon="@drawable/new_home_btn"        
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Refresh"/>
+
+    <item
+        android:id="@+id/action_search"        
+        android:icon="@drawable/search"
+        android:showAsAction="ifRoom"
+        android:title="Search"/>
+            
+    <item
+        android:id="@+id/action_settings"
+        android:title="Settings"
+        >
+    </item>
+
+</menu>
